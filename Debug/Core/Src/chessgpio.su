@@ -1,0 +1,2 @@
+chessgpio.cpp:9:5:int setColumn(int)	16	static
+chessgpio.cpp:34:5:int readColumn()	16	static

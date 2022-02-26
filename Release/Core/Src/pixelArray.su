@@ -1,0 +1,6 @@
+pixelArray.cpp:11:10:dmaPixel colorExtender(uint32_t)	32	static
+pixelArray.cpp:86:6:void pixelArray::setPixel(uint32_t, int, int)	48	static
+pixelArray.cpp:95:6:void pixelArray::setStrip(uint32_t)	48	static
+pixelArray.cpp:109:6:void pixelArray::reset()	20	static
+pixelArray.cpp:123:6:void pixelArray::initialize(int)	8	static
+pixelArray.cpp:135:6:void pixelArray::passThrough(switchArray*)	24	static
