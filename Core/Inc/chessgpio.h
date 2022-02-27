@@ -20,7 +20,7 @@ int setColumn(int column);
 
 /*  Once the muxes are set to a specific column, readColumn() returns a vector of bits for each of the rows in that column.
 *   The following table describes which bit corresponds to which row
-*		Row 1	| Bit 0
+*		Row 1 | Bit 0
 *		Row 2 | Bit 1
 *		Row 3 | Bit 2
 *		Row 4 | Bit 3
