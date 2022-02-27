@@ -1,5 +1,0 @@
-main.cpp:69:6:void HAL_SPI_TxHalfCpltCallback(SPI_HandleTypeDef*)	0	static
-main.cpp:73:6:void readSwitches(switchArray*)	32	static
-main.cpp:182:6:void SystemClock_Config()	80	static,ignoring_inline_asm
-main.cpp:102:5:int main()	56	static,ignoring_inline_asm
-main.cpp:390:6:void Error_Handler()	0	static,ignoring_inline_asm

@@ -20,7 +20,12 @@ struct switchArray {
 
 	// Member functions
 
-	// Set a given position in the array
+	/**
+	 * @brief Set a given position in the array
+	 * 
+	 * @param column I will use doxygen to document in .h as if my code would be reused in million$ project.
+	 * @param row  	I will think about what I would want to know as a developper
+	 */
 	void set(int column, int row);
 
 	// Reset a given position in the array

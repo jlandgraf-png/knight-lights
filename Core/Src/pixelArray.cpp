@@ -50,6 +50,7 @@ dmaPixel colorExtender(uint32_t color) {
 		}
 	}
 	for (int i = 8; i < 16; ++i) {
+		#warning "you won't remember what all  this does in 2 month. Heavily comment and explain these tricks"
 		compare = 1 << i;
 		if (color & compare) {
 			int index = 5*(i-8) + 2;

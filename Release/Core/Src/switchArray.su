@@ -1,4 +1,0 @@
-switchArray.cpp:11:6:void switchArray::set(int, int, int)	12	static
-switchArray.cpp:21:6:void switchArray::reset(int, int)	0	static
-switchArray.cpp:27:5:int switchArray::read(int, int)	0	static
-switchArray.cpp:32:6:void switchArray::initialize()	0	static
