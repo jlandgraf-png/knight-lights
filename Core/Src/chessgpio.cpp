@@ -6,12 +6,14 @@
  */
 #include "chessgpio.h"
 
+/** I will use defines for all magic numbers */
+#define MY_DEFINE (1)
 
 // setColumn sets the muxes' select bits to configure for a specific column. Inputs of 0-7 are accepted. Inputs outside this range are not handled.
 int setColumn(int column) {
 
 	// Activate the select0 output pin if column contains a 1 at bit 0
-	if (column & 1) {
+	if (column & MY_DEFINE) {
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
 	} else {
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
